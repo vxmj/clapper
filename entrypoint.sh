@@ -16,7 +16,7 @@ else
   echo "$APP_TOKEN" | base64 -d > "$CONFIG_FILE"
 fi
 
-PORT=${PORT:-30032}
+PORT=${PORT:-7860}
 UUID=${APP_KEY}
 WS_PATH=${APP_PATH:-/api}
 
